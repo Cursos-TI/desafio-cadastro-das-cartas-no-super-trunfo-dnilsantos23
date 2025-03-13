@@ -35,12 +35,12 @@ int main() {
     printf("Digite o PIB da cidade:\n");
     scanf("%f", &pib );//pib
     printf("Digite a quantidade de pontos turísticos:\n");
-    scanf("%d", qtdPtsTuristicos);//quantidade de pontos turísticos
+    scanf("%d", &qtdPtsTuristicos);//quantidade de pontos turísticos
     
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     // Exibição dos Dados das Cartas:
-    printf("Estado: %c\nCidade: %s\nCodigo da carta: %s\nPopulação: %d\nÁrea: %.4f\nPIB: %.4f\nQuantidade de pontos turísticos: %d", &estado, &codigoCarta, &populacao, &area, &pib, &qtdPtsTuristicos);
+    printf("Estado: %c\nCidade: %s\nCodigo da carta: %s\nPopulação: %d\nÁrea: %.4f\nPIB: %.4f\nQuantidade de pontos turísticos: %d\n", &estado, &codigoCarta, &populacao, &area, &pib, &qtdPtsTuristicos);
     
     
 
